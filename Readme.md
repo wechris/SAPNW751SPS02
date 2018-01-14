@@ -1,8 +1,8 @@
 Introduction
 ============
-The openSUSE Leap 42.3 box can be used to create a VirtualBox instance with Vagrant to install [SAP NW AS ABAP 751 SP02 Developer Edition](https://blogs.sap.com/2016/11/03/sap-nw-as-abap-750-sp02-developer-edition-to-download/?preview_id=391853) .
+The openSUSE Leap 42.3 box can be used to create a VirtualBox instance with Vagrant to install [SAP NW AS ABAP 751 SP02 Developer Edition](https://blogs.sap.com/2017/09/04/sap-as-abap-751-sp02-developer-edition-to-download/) .
  
- All recommended system preparations will be done by packer and vagrant, as described at [Installing ABAP AS on Oracle VirtualBox](https://blogs.sap.com/2016/11/03/linux-for-newbies-installing-opensuse-on-oracle-virtualbox/?preview_id=391946) without the proxy part (step C.3.).
+ All recommended system preparations will be done by packer and vagrant, as described at [Installing ABAP AS on Oracle VirtualBox](https://blogs.sap.com/2017/09/04/newbies-guide-installing-abap-as-751-sp02-on-linux/) without the proxy part (step C.3.).
 
  The step D.1. ***sudo -i*** and ***FINALLY, we run the installation, by entering the command ./install.sh*** must be done manually!
  
@@ -98,7 +98,7 @@ Start the SAP system:
 
 **Post and optional installation steps**
 
-Additional informations, License key and first steps follow [SAP NW AS ABAP 7.51 SP2 – Developer Edition to Download: Concise Installation Guide](https://blogs.sap.com/2016/11/03/sap-nw-as-abap-7.50-sp2-developer-edition-to-download-consise-installation-guide/)
+Additional informations, License key and first steps follow [SAP NW AS ABAP 7.51 SP2 – Developer Edition to Download: Concise Installation Guide](https://blogs.sap.com/2017/09/04/sap-as-abap-7.51-sp2-developer-edition-to-download-concise-installation-guide/)
 
 Start/Stop the VBox with:
 ````
