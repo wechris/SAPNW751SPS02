@@ -4,7 +4,7 @@ The openSUSE Leap 42.3 box can be used to create a VirtualBox instance with Vagr
  
  All recommended system preparations will be done by packer and vagrant, as described at [Installing ABAP AS on Oracle VirtualBox](https://blogs.sap.com/2016/11/03/linux-for-newbies-installing-opensuse-on-oracle-virtualbox/?preview_id=391946) without the proxy part (step C.3.).
 
- The step D.1. **sudo -i*** and ***FINALLY, we run the installation, by entering the command ./install.sh*** must be done manually!
+ The step D.1. ***sudo -i*** and ***FINALLY, we run the installation, by entering the command ./install.sh*** must be done manually!
  
 Prerequisites
 =============
@@ -28,7 +28,9 @@ Clone the reporitory.
 
 Download and extract the [sap_netweaver_as_abap_751_sp02_ase_dev_edition.partX.rar](https://tools.hana.ondemand.com/#abap) files to the folder: *./sapinst*
 
-The actual download (in the form of several .rar files), along with more information, is available here: [SAPStore: ABAP 7.50](https://store.sap.com/sap/cp/ui/resources/store/html/SolutionDetails.html?pid=0000014492&catID=&pcntry=DE&sap-language=EN&_cp_id=id-1477346420741-0)
+The actual download (in the form of several .rar files), along with more information, is available here:
+
+[SAPStore: ABAP 7.50](https://store.sap.com/sap/cp/ui/resources/store/html/SolutionDetails.html?pid=0000014492&catID=&pcntry=DE&sap-language=EN&_cp_id=id-1477346420741-0)
 
 ```
 ./sapinst/sap_netweaver_as_abap_751_sp02_ase_dev_edition
