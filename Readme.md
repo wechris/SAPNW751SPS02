@@ -24,7 +24,7 @@ $ brew install vagrant-manager
  
 Usage
 =====
-Clone the reporitory. 
+Clone the reporitory [wechris/SAPNW751SPS02](https://github.com/wechris/SAPNW751SPS02). 
 
 Download and extract the [sap_netweaver_as_abap_751_sp02_ase_dev_edition.partX.rar](https://tools.hana.ondemand.com/#abap) files to the folder: *./sapinst*
 
