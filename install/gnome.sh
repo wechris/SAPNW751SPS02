@@ -11,6 +11,10 @@ sudo ln -svf /usr/lib/systemd/system/graphical.target /etc/systemd/system/defaul
 sudo chkstat --system --set
 
 echo "install JAVA..."
-wget --no-check-certificate --no-cookies --header "Cookie: oraclelicense=accept-securebackup-cookie" http://download.oracle.com/otn-pub/java/jdk/8u181-b13/96a7b8442fe848ef90c96a2fad6ed6d1/jdk-8u181-linux-x64.rpm
-sudo zypper --non-interactive remove --force-resolution java
-sudo zypper --non-interactive in --auto-agree-with-licenses /home/vagrant/jdk-8u181-linux-x64.rpm
+wget --no-check-certificate --no-cookies --header "Cookie: oraclelicense=accept-securebackup-cookie" http://download.oracle.com/otn-pub/java/jdk/8u191-b12/2787e4a523244c269598db4e85c51e0c/jdk-8u191-linux-x64.rpm
+sudo zypper --non-interactive remove --force-resolution 'java*'
+sudo ln -s /usr/sbin/update-alternatives /usr/sbin/alternatives
+sudo rpm -ivh --nodeps /home/vagrant/jdk-8u191-linux-x64.rpm
+ 
+sudo alternatives --install "/usr/bin/java" "java" "/usr/java/jdk1.8.0_191-amd64/bin/java" 1
+sudo update-alternatives --set java /usr/java/jdk1.8.0_191-amd64/bin/java
