@@ -6,6 +6,11 @@ The openSUSE Leap 42.3 box can be used to create a VirtualBox instance with Vagr
 
  The step D.1. ***sudo -i*** and ***FINALLY, we run the installation, by entering the command ./install.sh*** must be done manually!
  
+ # no maintenance anymore
+ 
+ ## Please also take a look at the new project SAPNW752SP01
+ [wechris/SAPNW752SP01](https://github.com/wechris/SAPNW752SP01)
+ 
 Prerequisites
 =============
  
